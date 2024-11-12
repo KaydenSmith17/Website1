@@ -1,0 +1,72 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4; /* Light background for the page */
+}
+
+header {
+    background-color: #003366; /* Dark blue header */
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+}
+
+nav ul li a:hover {
+    background-color: #ff3333; /* Red hover effect */
+}
+
+section {
+    padding: 20px;
+    margin: 10px 0;
+    border-radius: 5px;
+}
+
+section:nth-of-type(odd) {
+    background-color: #ffcccc; /* Light red for odd sections */
+}
+
+section:nth-of-type(even) {
+    background-color: #cce5ff; /* Light blue for even sections */
+}
+
+section h2 {
+    margin-top: 0;
+    color: #003366; /* Dark blue text for headings */
+}
+
+p {
+    color: #333; /* Dark gray text for paragraphs */
+}
+
+/* Specific styles for Resume Section */
+#resume {
+    border-left: 5px solid #ff3333; /* Red left border for Resume section */
+}
+
+/* Specific styles for Projects Section */
+#projects {
+    border-left: 5px solid #003366; /* Blue left border for Projects section */
+}
+
+/* Specific styles for Contact Section */
+#contact {
+    border-left: 5px solid #ff3333; /* Red left border for Contact section */
+}
