@@ -1,3 +1,4 @@
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -8,7 +9,7 @@ body {
 header {
     background-color: #003366; /* Dark blue header */
     color: #fff;
-    padding: 15px;
+    padding: 10px;
     text-align: center;
 }
 
@@ -20,7 +21,7 @@ nav ul {
 }
 
 nav ul li {
-    display: inline-block;
+    display: inline;
     margin-right: 15px;
 }
 
@@ -38,8 +39,7 @@ nav ul li a:hover {
 section {
     padding: 20px;
     margin: 10px 0;
-    border-radius: 8px; /* Slightly rounded corners */
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Light shadow for sections */
+    border-radius: 5px;
 }
 
 section:nth-of-type(odd) {
@@ -62,9 +62,14 @@ p {
     line-height: 1.6; /* Increased line height for easier reading */
 }
 
-/* Specific styles for Resume Section */
-#resume {
-    border-left: 5px solid #ff3333; /* Red left border for Resume section */
+footer {
+    padding: 10px;
+    text-align: center;
+    background-color: #003366;
+    color: white;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
 }
 
 /* Specific styles for Projects Section */
